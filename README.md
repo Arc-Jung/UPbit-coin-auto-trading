@@ -3,6 +3,8 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArc-Jung%2FUPbit-coin-auto-trading&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ### First commit Arc-Jung  in 2021-04-02
 
+### 해당 어플리케이션은 아직 미완성이므로 참조용으로만 사용하시길 바랍니다. 모든 투자는 본인의 선택이며 투자 손실에 대한 책임은 본인에게 있습니다.
+
 ## 요구사항 분석
 	1. 1분마다 가격을 조회 하여 단기 이동평균선이 장기 이동평균선을 넘어서는 골든크로스 시점에 매수를 진행합니다.
 	2. 매수 후 단기 이동평균선이 하락이 시작될 때 매도를 합니다.
