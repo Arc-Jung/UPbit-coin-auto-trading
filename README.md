@@ -11,9 +11,9 @@
 	3. 매수, 매매를 할때마다 기록합니다.
 
 ## 설계
-	1. AWS EventBridge로 매 1분 마다 조회하여 업비트 거래소에 보유 중인 코인을 업비트 REST API를 통하여 조회하여 수익률이 10% 이상이면 매매한다.
+	1. AWS EventBridge로 매 1분 마다 조회하여 업비트 거래소에 보유 중인 코인을 업비트 REST API를 통하여 조회하여 수익률이 일정 비율 이상일시 매매한다.
 	2. AWS EventBridge로 매 1분 마다 조회하여 이동평균선을 이용하여 15일 단기 이동평균선이 장기 이동평균선을 넘어 섰을 때 매수한다.
-	3. 모든 비즈니스 로직은 파이썬으로 구성하며, AWS Lambda를 통하여 서버리스로 구성하여 유지보수 및 징애에 대응하기 쉽게 개발한다.
+	3. 모든 비즈니스 로직은 파이썬으로 구성하며, AWS Lambda를 통하여 서버리스로 구성하여 가용성 및 확장성에 유의하여 개발한다.
 ## Architect
 ![Upbit_Coin_Auto_Trading_Architect.png](/images/Upbit_Coin_Auto_Trading_Architect.png)
 
